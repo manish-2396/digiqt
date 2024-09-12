@@ -117,7 +117,7 @@ const NormineeTableView = (props) => {
                   <div className={styled.addressField}>
                     <input disabled={sameAddress} type="text" placeholder="Enter full address" name="address" value={form?.address} required onChange={handleChange} />
                     <div className={styled.addressDetails}>
-                      <input disabled={sameAddress} type="text" placeholder="Pincode*" name="pincode" value={form?.pincode} required onChange={handleChange} />
+                      <input  type="text" placeholder="Pincode*" name="pincode" value={form?.pincode} required onChange={handleChange} />
                       <input disabled={isPinCodeExist} type="text" placeholder="City*" name="city" value={form?.city} required onChange={handleChange} />
                       <input disabled={isPinCodeExist} type="text" placeholder="State*" name="state" value={form?.state} required onChange={handleChange} />
                       <input disabled={isPinCodeExist} type="text" placeholder="Country" name="country" value={form?.country} onChange={handleChange} />

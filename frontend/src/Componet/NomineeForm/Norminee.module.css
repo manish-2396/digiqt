@@ -1,0 +1,78 @@
+.formContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+
+  .formButton {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input,
+  .formGroup select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .addressChoice {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .addressField {
+    margin-top: 10px;
+  }
+  
+  .addressDetails {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .addressDetails input {
+    width: calc(25% - 10px);
+    margin: 10px;
+  }
+  
+  .saveButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .saveButton:hover {
+    background-color: #0056b3;
+  }
+
+  .error{
+    color: red;
+    font-size: 0.7rem;
+  }
+  

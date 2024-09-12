@@ -1,0 +1,1 @@
+export {NomineeRoutes} from "./nominee.routes.js"

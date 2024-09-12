@@ -1,0 +1,182 @@
+.nomineesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nomineesTable thead {
+    background-color: #f8f9fa;
+}
+
+.nomineesTable th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+    border-bottom: 2px solid #0056b3;
+}
+
+.nomineesTable td {
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.nomineesTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.nomineesTable tbody tr:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .nomineesTable {
+        font-size: 14px;
+    }
+
+    .nomineesTable th,
+    .nomineesTable td {
+        padding: 8px;
+    }
+}
+
+
+.formContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formButton {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroup select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.addressChoice {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.addressField {
+    margin-top: 10px;
+}
+
+.addressDetails {
+    display: flex;
+    gap: 10px;
+}
+
+.addressDetails input {
+    width: calc(25% - 10px);
+    margin: 10px;
+}
+
+.saveButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.saveButton:hover {
+    background-color: #0056b3;
+}
+
+
+.addNominee {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}
+
+
+.modal {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.modalContent {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.close:hover,
+.close:focus {
+    color:
+        #000;
+}
+
+.error {
+    color: red;
+    font-size: 0.7rem;
+}
+
+.dropdown{
+    display: flex;
+}
+.dropdown button{
+    margin: 5px;
+}

@@ -134,7 +134,7 @@ const NormineeTableController = () => {
 
   useEffect(() => {
     const checkPin = async () => {
-      if (pin?.length === 6) {
+      if (pin?.length > 3) {
         try {
           const response = await api.get(`/nominee/isCheck/${pin}`);
           const { _id, city, country, pincode, state } = response?.data?.data
